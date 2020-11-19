@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DUCO">
+    <listeners>
+        <listener class-name="com.google.utilities.Reporting"/>
+    </listeners>
+
+    <test name="Test1">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.google.testcases.TC_Search_001" />
+        </classes>
+    </test>
+
+    <!-- <test name="nopCommerce Test2" thread-count="5">
+        <parameter name="browser" value="ie" />
+        <classes>
+            <class name="com.nopcommerce.testCases.TC_LoginTest_001" />
+        </classes>
+    </test> 
+
+    <test name="Test3">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.google.testcases.TC_Search_001" />
+        </classes>
+    </test> -->
+
+</suite>

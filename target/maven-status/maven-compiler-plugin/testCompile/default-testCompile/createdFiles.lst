@@ -1,0 +1,6 @@
+com\google\utilities\ReadConfig.class
+com\google\utilities\Reporting.class
+com\google\testcases\BaseClass.class
+com\google\testcases\TC_Search_001.class
+com\google\utilities\XLUtils.class
+com\google\pageobjects\GoogleSearchPage.class
